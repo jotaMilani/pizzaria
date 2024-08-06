@@ -13,7 +13,7 @@ body {
 }
 
 .bgfundo {
-  background: url(/img/Designsemnome.png) no-repeat center/cover;
+  background: url(../img/Designsemnome.png) no-repeat center/cover;
   width: 100%;
   height: 700px;
 }
@@ -96,27 +96,27 @@ header {
   gap: 15px;
 }
 .sec-menu ion-icon {
-font-size: 25px;
+  font-size: 25px;
 }
 
-#btnZap{
-    background: #e7a200;
-    border-radius: 65px;
-    padding: 0 15px;
-    font-size: 20px;
-    font-weight: bolder;
-    height: 40px;
+#btnZap {
+  background: #e7a200;
+  border-radius: 65px;
+  padding: 0 15px;
+  font-size: 20px;
+  font-weight: bolder;
+  height: 40px;
 
-    display: flex;
-    align-items: center;
-    gap: 7px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
 }
 
-.Zap{
+.Zap {
   text-decoration: none;
   color: #fff;
 }
-.ifood{
+.ifood {
   position: fixed;
   z-index: 10;
   right: 0;
@@ -124,7 +124,7 @@ font-size: 25px;
   filter: drop-shadow(-2px 4px 6px black);
 }
 
-#BoasVindas{
+#BoasVindas {
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -132,8 +132,8 @@ font-size: 25px;
   padding-bottom: 15px;
 }
 
-#BoasVindas img{
- padding: 0 100px;
+#BoasVindas img {
+  padding: 0 100px;
 }
 
 #TextoBoasVindas {
@@ -141,43 +141,42 @@ font-size: 25px;
   padding-right: 100px;
 }
 
-#TextoBoasVindas h4{
-text-transform: uppercase;
-font-size: 16px;
-margin: 0;
-padding-top: 20px;
-font-family: 'Times New Roman', Times, serif;
-  }
+#TextoBoasVindas h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 0;
+  padding-top: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
 
-  #TextoBoasVindas h3{
-    text-transform: uppercase;
-    font-weight: 900;
-    color: #e7a200;
-    font-size: 23px;
-    margin-top: 20px;
-    margin-bottom: 0;
-  }
+#TextoBoasVindas h3 {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #e7a200;
+  font-size: 23px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
 
-  #TextoBoasVindas p{
-    margin-bottom: 0;
+#TextoBoasVindas p {
+  margin-bottom: 0;
+}
 
-  }
-
-  #cardapio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+#cardapio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 #cardapio img {
   padding: 36px 0;
 }
 
-#cardapio div img{
+#cardapio div img {
   padding: 0;
 }
 
-#cardapio h2{
+#cardapio h2 {
   color: #d03012;
   text-transform: uppercase;
   font-size: 28px;
@@ -185,7 +184,7 @@ font-family: 'Times New Roman', Times, serif;
   font-weight: 900;
   margin: 0 0 7px 0;
 }
-.btnCardapio{
+.btnCardapio {
   text-decoration: none;
   color: #fff;
   background: #8daa3e;
@@ -194,17 +193,17 @@ font-family: 'Times New Roman', Times, serif;
   border-bottom: 2px solid #6d7552;
 }
 
-#PromoPizzas{
+#PromoPizzas {
   width: 100%;
   display: flex;
-flex-wrap: wrap;
-align-items: center;
-justify-content: center;
-gap: 10px;
-padding-top: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
 }
 
-#Delivery{
+#Delivery {
   max-height: 270px;
   background: #ebe7db;
   margin: 50px 0;
@@ -215,40 +214,39 @@ padding-top: 20px;
   text-align: center;
 }
 
-#Delivery h1{
+#Delivery h1 {
   text-transform: uppercase;
-color: #d03012;
-font-weight: 900;
+  color: #d03012;
+  font-weight: 900;
 }
 
-  #Delivery .sec-menu{
-    justify-content: center;
-    padding: 40px;
-  }
-
-#Icone{
-display: flex;
-justify-content: center;
-gap: 70px;
-margin: 20px 0;
+#Delivery .sec-menu {
+  justify-content: center;
+  padding: 40px;
 }
 
-.itens{
+#Icone {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin: 20px 0;
+}
+
+.itens {
   max-width: 250px;
   text-align: center;
 }
 
-#Contato iframe{
+#Contato iframe {
   position: absolute;
 }
 
-#Contato{
+#Contato {
   display: flex;
   justify-content: center;
 }
 
-
-.forms{
+.forms {
   z-index: 2;
   width: 530px;
   max-width: 100%;
@@ -267,11 +265,10 @@ margin: 20px 0;
   margin: 0;
 }
 
-.forms p{
+.forms p {
   margin: 0;
   margin-top: -12px;
   margin-bottom: 13px;
-
 }
 
 .forms small {
@@ -280,7 +277,7 @@ margin: 20px 0;
 }
 
 .forms input,
-.forms textarea{
+.forms textarea {
   padding: 0 16px;
   line-height: 36px;
   background: transparent;
@@ -292,20 +289,20 @@ margin: 20px 0;
   margin-bottom: 10px;
 }
 
-.forms form{
+.forms form {
   display: flex;
-flex-direction: column;
-align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-.forms input[type="submit"]{
+.forms input[type="submit"] {
   background: #e7a200;
-border-color: #e7a200;
-width: 155px;
-border-radius: 50px;
-color: #fff;
-font-weight: 700;
-margin-top: 20px;
+  border-color: #e7a200;
+  width: 155px;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 20px;
 }
 
 footer {
@@ -318,47 +315,31 @@ footer {
   justify-content: space-evenly;
 }
 
-
 footer #dados {
   display: flex;
   margin: 0 14%;
   justify-content: space-between;
 }
 
-
 #dados p,
 #dados h4 {
   margin: 0;
 }
 
-
 #dados h4 {
   margin-top: 10px;
 }
 
-
 footer #dados:first-child {
   margin-left: 20%;
 }
-
 
 #copyright {
   text-align: center;
   margin-top: 100px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-  /* #cardapio div{
+/* #cardapio div{
     width: 100%;
     display: flex;
     justify-content: space-between;
